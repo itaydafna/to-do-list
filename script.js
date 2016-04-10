@@ -4,6 +4,7 @@ function addAction() {
     li = document.createElement("li");
   li.appendChild(document.createTextNode(actionItem))
   ol.appendChild(li);
+  actionItem='default text';
 }
 
 var button = document.getElementById("submit");
